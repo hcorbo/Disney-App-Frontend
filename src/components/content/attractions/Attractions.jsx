@@ -41,7 +41,7 @@ export function Attractions() {
                 <span>List of the attractions is empty</span> :
                 (
                     <div className={classes.root}>
-                    <GridList cellHeight={360}>
+                    <GridList cellHeight={250}>
                     {attractions.map((attraction) => (
                         <GridListTile key={attraction} cols={1} style={{ width: '100%' }}>
                             <ComplexGrid attraction={attraction}/>

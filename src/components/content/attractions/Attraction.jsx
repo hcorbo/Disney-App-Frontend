@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         padding: theme.spacing(2),
         margin: 'auto',
-        maxWidth: 900,
+        maxWidth: 900
     },
     image: {
         width: 200,
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'block',
         maxWidth: '100%',
         maxHeight: '100%',
-    },
+    }
 }));
 
 export default function ComplexGrid(props) {
@@ -31,7 +31,7 @@ export default function ComplexGrid(props) {
 
     return (
         <div className={classes.root}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} elevation={7}>
                 <Grid container spacing={2}>
                     <Grid item>
                         <ButtonBase className={classes.image}>
@@ -41,21 +41,18 @@ export default function ComplexGrid(props) {
                     <Grid item xs={12} md container>
                         <Grid item xs container direction="column" spacing={1}>
                             <Grid item xs>
-                                <Typography gutterBottom variant="subtitle1">
-                                    {props.attraction.name}
+                                <Typography gutterBottom variant="subtitle1" >
+                                    <b>{props.attraction.name}</b>
                                 </Typography>
-                                <Typography variant="body2" gutterBottom>
-                                    Full resolution 1920x1080 • JPEG
-                                </Typography>
-                                <Typography variant="body2" color="textSecondary">
-                                    ID: 1030114
+                                <Typography variant="body2" gutterBottom style={{textAlign: 'left', marginTop: '110px'}}>
+                                    Location: {props.attraction.location}
                                 </Typography>
                             </Grid>
-                            <Grid item>
-                                <Typography variant="body2" style={{ cursor: 'pointer' }}>
-                                    Remove
-                                </Typography>
-                            </Grid>
+                            {/*<Grid item>*/}
+                            {/*    <Typography variant="body2" style={{ cursor: 'pointer' }}>*/}
+                            {/*        Remove*/}
+                            {/*    </Typography>*/}
+                            {/*</Grid>*/}
                         </Grid>
                         <Grid item>
                             <Typography variant="subtitle1">${props.attraction.ticketPrice}</Typography>

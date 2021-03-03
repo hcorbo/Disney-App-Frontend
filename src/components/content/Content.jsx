@@ -10,6 +10,9 @@ export function Content() {
             <Route path='/theme-parks'>
                 <ThemeParks/>
             </Route>
+            <Route path='/attractions'>
+                <Attractions/>
+            </Route>
             <Route path='/disney-characters'>
                 <Attractions/>
             </Route>

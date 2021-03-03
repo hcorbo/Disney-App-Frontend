@@ -14,6 +14,7 @@ export function Header () {
                 className="d-inline-block align-top"
             />{''}
         <Link className="link" to="/theme-parks">Theme Parks</Link>
+        <Link className="link" to="/attractions">Attractions</Link>
         <Link className="link" to="/disney-characters">Disney Characters</Link>
         <Link className="link" to="/gifts">Gifts</Link>
     </div>

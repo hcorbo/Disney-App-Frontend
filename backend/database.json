@@ -16,9 +16,11 @@
     {"id":  3, "gender":  "kid", "image": "S"}
   ],
   "attractions": [
-    {"id":  1, "name":  "Big Thunder Mountain Railroad", "ticketPrice": 30, "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disneyland/attractions/disneyland/big-thunder-mountain-railroad/big-thunder-guests-16x9.jpg?1559890290801"},
-    {"id":  2, "name":  "The Disney Gallery", "ticketPrice": 40, "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disney-gallery/disney-gallery-09.jpg?1605290757507"},
-    {"id":  3, "name":  "Disneyland Monorail", "ticketPrice": 80, "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disneyland-monorail/disneyland-monorail-00.jpg?1605290924935"},
-    {"id":  4, "name":  "Finding Nemo Submarine Voyage", "ticketPrice": 20, "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/finding-nemo-submarine-voyage/finding-nemo-submarine-voyage-00.jpg?1605290895668"}
+    {"id":  1, "name":  "Big Thunder Mountain Railroad", "ticketPrice": 30,
+      "location": "Frontierland",
+      "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disneyland/attractions/disneyland/big-thunder-mountain-railroad/big-thunder-guests-16x9.jpg?1559890290801"},
+    {"id":  2, "name":  "The Disney Gallery", "ticketPrice": 40, "location": "Disneyland Park, Main Street, U.S.A", "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disney-gallery/disney-gallery-09.jpg?1605290757507"},
+    {"id":  3, "name":  "Disneyland Monorail", "ticketPrice": 80, "location": "Disneyland Park, Tomorrowland", "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disneyland-monorail/disneyland-monorail-00.jpg?1605290924935"},
+    {"id":  4, "name":  "Finding Nemo Submarine Voyage", "ticketPrice": 20, "location": "Disneyland Park, Tomorrowland", "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/finding-nemo-submarine-voyage/finding-nemo-submarine-voyage-00.jpg?1605290895668"}
   ]
 }
