@@ -13,6 +13,7 @@ export function Header () {
                     width="150"
                     height="45"
                     className="d-inline-block align-top"
+                    style={{"borderRadius": 200 / 2}}
                 />{''}
                 <div className="navbar-right">
                     <Link className="link nav-link" to="/theme-parks">Theme Parks</Link>
