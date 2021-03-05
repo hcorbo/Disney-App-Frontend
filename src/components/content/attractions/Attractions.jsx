@@ -3,7 +3,6 @@ import React, {useEffect, useState} from "react";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridList from "@material-ui/core/GridList";
 import {makeStyles} from "@material-ui/core/styles";
-import {MyComplexGrid} from "./MyAttraction";
 
 export function Attractions() {
     const [attractions, setAttractions] = useState([]);
@@ -43,7 +42,7 @@ export function Attractions() {
                     <div className={classes.root}>
                     <GridList cellHeight={250}>
                     {attractions.map((attraction) => (
-                        <GridListTile key={attraction} cols={1} style={{ width: '100%' }}>
+                        <GridListTile key={attraction.id} cols={1} style={{ width: '100%' }}>
                             <ComplexGrid attraction={attraction}/>
                         </GridListTile>
                     ))}
@@ -52,8 +51,4 @@ export function Attractions() {
                 )
             }
         </>
-    // {
-    //     attractions.length === 0 ? <span>List of the files is empty</span> : (<>
-    //         {<ComplexGrid/>} </>)
-    // }
 }

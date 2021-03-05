@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
     gridList: {
         width: 1000,
-        height: 900,
+        height: 520,
     },
     icon: {
         color: 'rgba(255, 255, 255, 0.54)',
@@ -72,9 +72,7 @@ export function ThemeParks () {
             themeParks.length === 0 ? <span>List of the theme parks is empty</span> : (<>
                 {
                     <div className={classes.root}>
-                        <GridList cellHeight={360} className={classes.gridList}>
-                            <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-                            </GridListTile>
+                        <GridList cellHeight={250} className={classes.gridList}>
                             {themeParks.map((tile) => (
                                 <GridListTile key={tile.image}>
                                     <img src={tile.image} alt={tile.location} />

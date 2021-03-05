@@ -1,21 +1,25 @@
 import './Header.css';
 import {Link} from "react-router-dom";
 import React from "react";
-import logo from './logo3.jpg';
+import logo from '../../images/logo3.jpg';
 
 
 export function Header () {
     return <div className="Header">
-            <img
-                alt="Disneyland"
-                src={logo}
-                width="80"
-                height="30"
-                className="d-inline-block align-top"
-            />{''}
-        <Link className="link" to="/theme-parks">Theme Parks</Link>
-        <Link className="link" to="/attractions">Attractions</Link>
-        <Link className="link" to="/disney-characters">Disney Characters</Link>
-        <Link className="link" to="/gifts">Gifts</Link>
+            <div className="container">
+                <img
+                    alt="Disneyland"
+                    src={logo}
+                    width="150"
+                    height="45"
+                    className="d-inline-block align-top"
+                />{''}
+                <div className="navbar-right">
+                    <Link className="link nav-link" to="/theme-parks">Theme Parks</Link>
+                    <Link className="link nav-link" to="/attractions">Attractions</Link>
+                    <Link className="link nav-link" to="/gifts">Gifts</Link>
+                    <Link className="link nav-link" to="/contact-us">Contact Us</Link>
+                </div>
+            </div>
     </div>
 }

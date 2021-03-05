@@ -6,9 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
 const useStyles = makeStyles((theme) => ({
-    // root: {
-    //     flexGrow: 1,
-    // },
     paper: {
         padding: theme.spacing(2),
         margin: 'auto',
@@ -48,11 +45,6 @@ export default function ComplexGrid(props) {
                                     Location: {props.attraction.location}
                                 </Typography>
                             </Grid>
-                            {/*<Grid item>*/}
-                            {/*    <Typography variant="body2" style={{ cursor: 'pointer' }}>*/}
-                            {/*        Remove*/}
-                            {/*    </Typography>*/}
-                            {/*</Grid>*/}
                         </Grid>
                         <Grid item>
                             <Typography variant="subtitle1">${props.attraction.ticketPrice}</Typography>
