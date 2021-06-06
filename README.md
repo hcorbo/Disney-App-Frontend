@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#React application
+
+Routing \
+Navigation \
+Communication with backend (fake REST API using json-server) \
+Show sent data on UI \
+Integration of material UI with some examples \
+Integration of react bootstrap with some examples \
+
+Start json-server
+json-server --watch db.json --port 3001
+
 ## Available Scripts
 
 In the project directory, you can run:
